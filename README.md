@@ -1,7 +1,7 @@
 # Reflow Nouveau
-## An update for the Reflow Château reflow oven controller by Will Floyd-Jones @willf-j
+## An update for the Reflow Château reflow oven controller by Will Floyd-Jones
 
-Back in 2015 Hackaday published a post about the [Reflow Château](https://hackaday.com/2015/02/02/reflow-chateau/), a DIY reflow oven controller that uses a capacitive touchscreen as user interface. It was better looking than the alternatives available at the time, but as time passed by it started to become obvious that the project was obsolete: there are issues about DC and AC power separation, the chosen SSRs were already EOL when the project was released, the Teensy 3.1/3.2 board used for the project was [EOL in 2023](https://www.pjrc.com/teensy-3-2-end-of-life/), not to mention problems with the code that needed some fixes.
+Back in 2015 Hackaday published a post about the [Reflow Château](https://hackaday.com/2015/02/02/reflow-chateau/), a DIY reflow oven controller created by Will Floyd-Jones (@willf-j) that uses a capacitive touchscreen as user interface. It was better looking than the alternatives available at the time, but as time passed by it started to become obvious that the project was obsolete: there are issues about DC and AC power separation, the chosen SSRs were already EOL when the project was released, the Teensy 3.1/3.2 board used for the project was [EOL in 2023](https://www.pjrc.com/teensy-3-2-end-of-life/), not to mention problems with the code that needed some fixes.
 
 Reflow Nouveau is an attempt to update the hardware while keeping the firmware as similar as possible in function to the original. The current plan of action is:
 
